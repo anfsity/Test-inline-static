@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -shared -Wl,--dependency-file=CMakeFiles/core.dir/link.d -Wl,-soname,libcore.so -o libcore.so CMakeFiles/core.dir/core_registry.cpp.o
