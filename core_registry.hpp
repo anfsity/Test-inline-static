@@ -10,7 +10,7 @@ public:
   static CoreRegistry &instance();
 
   void register_action(const std::string_view name, void *ctor_ptr) {
-    std::print("[Registry] Tring to register: '{}' with factory ptr: {}\n",
+    std::print("[Registry] Trying to register: '{}' with factory ptr: {}\n",
                name, ctor_ptr);
 
     auto [iter, success] = map_.emplace(name, ctor_ptr);
@@ -18,7 +18,7 @@ public:
     if (success) {
       std::println("  -> SUCCESS! Added to dictionary");
     } else {
-      std::println("  -> IFNORED! Key already exists. Kept old ptr: {}",
+      std::println("  -> IGNORED! Key already exists. Kept old ptr: {}",
                    iter->second);
     }
   }
