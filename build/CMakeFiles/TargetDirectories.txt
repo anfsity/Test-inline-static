@@ -1,0 +1,6 @@
+/home/anfsity/Project/tmp/build/CMakeFiles/core.dir
+/home/anfsity/Project/tmp/build/CMakeFiles/plugin_a.dir
+/home/anfsity/Project/tmp/build/CMakeFiles/plugin_b.dir
+/home/anfsity/Project/tmp/build/CMakeFiles/main.dir
+/home/anfsity/Project/tmp/build/CMakeFiles/edit_cache.dir
+/home/anfsity/Project/tmp/build/CMakeFiles/rebuild_cache.dir

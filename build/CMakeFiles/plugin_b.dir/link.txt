@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,--dependency-file=CMakeFiles/plugin_b.dir/link.d -Wl,-soname,libplugin_b.so -o libplugin_b.so CMakeFiles/plugin_b.dir/plugin_b.cpp.o  -Wl,-rpath,/home/anfsity/Project/tmp/build libcore.so
