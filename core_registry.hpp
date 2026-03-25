@@ -5,7 +5,17 @@
 #include <string_view>
 #include <unordered_map>
 
-class CoreRegistry {
+#if defined (_WIN32)
+  #if defined (core_EXPORTS)
+    #define CORE_EXPORT __declspec(dllexport)
+  #else
+    #define CORE_EXPORT __declspec(dllimport)
+  #endif
+#else
+  #define CORE_EXPORT
+#endif
+
+class CORE_EXPORT CoreRegistry {
 public:
   static CoreRegistry &instance();
 
